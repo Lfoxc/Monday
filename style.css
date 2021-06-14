@@ -8,7 +8,7 @@ body{
   font-family: 'EB Garamond', serif;
   line-height: 1.6;
   font-size: 17px;
-  color: #926239;
+  color: #C70039;
 }
 
 #show{
@@ -27,6 +27,7 @@ body{
 #show h1{
   font-size: 50px;
   line-height: 1.2;
+  padding-top: 250px;
 }
 
 #show p{
@@ -36,15 +37,44 @@ body{
 #show .button{
   font-size: 18px;
   text-decoration: none;
-  color: #926239;
-  border: #926239 1px solid;
+  color: #C70039;
+  border: #C70039 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
 }
 
 #show .button:hover{
-  background-color: #926239;
+  background-color: #C70039;
   color: #FFFFFF;
-  
+
+}
+
+#section-a{
+  padding:20px;
+  background: #C70039;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#section-b{
+  padding:20px;
+  background: #F4F4F4;
+  text-align: center;
+}
+
+#section-c div{
+  padding: 20px;
+}
+#section-c{
+  display: flex;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background: #C70039;
+  color: #FFFFFF;
+}
+
+#section-c .box-2{
+  background-color: #F9F9F9;
 }
